@@ -478,4 +478,8 @@
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze 
          state -->
      <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <string name="config_deviceKeyHandlerLib" translatable="false">/system/app/Zenmotions/Zenmotions.apk</string>
+    <string name="config_deviceKeyHandlerClass" translatable="false">com.asus.zenmotions.KeyHandler</string>
+
 </resources>
