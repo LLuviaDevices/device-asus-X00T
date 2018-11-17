@@ -244,3 +244,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # ZRAM disk
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.vendor.qti.config.zram=true
+
+#Aux
+PRODUCT_PROPERTY_OVERRIDES += \
+vendor.camera.aux.packagelist=org.codeaurora.snapcam
+
+#EIS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.eis.enable=1
+
+# Disable rescue party
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
+
