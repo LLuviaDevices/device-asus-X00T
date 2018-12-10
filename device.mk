@@ -1,4 +1,4 @@
-#
+# 
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -137,10 +137,6 @@ PRODUCT_PACKAGES += \
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
-
-#DeviceSettings
-PRODUCT_PACKAGES += \
-    DeviceSettings \
 
 # Display
 PRODUCT_PACKAGES += \
