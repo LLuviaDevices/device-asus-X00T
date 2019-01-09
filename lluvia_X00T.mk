@@ -49,3 +49,7 @@ TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Maintainer Prop
+PRODUCT_BUILD_PROP_OVERRIDES += \
+ro.lluvia.maintainer="Yaswanth"
